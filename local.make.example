@@ -1,17 +1,8 @@
-; temple_tier2 make file for local development
+; temple make file for local development
 core = "7.x"
 api = "2"
 
 projects[drupal][version] = "7.x"
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
-
-; +++++ Libraries +++++
-
-; temple_tier2
-libraries[temple_tier2][directory_name] = "temple_tier2"
-libraries[temple_tier2][type] = "profile"
-libraries[temple_tier2][destination] = "../../profiles"
-libraries[temple_tier2][download][type] = "get"
-libraries[temple_tier2][download][url] = "http://ftp.drupal.org/files/projects/temple_tier2-7.x-1.x-dev.tar.gz"
 

@@ -4,9 +4,9 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function temple_tier2_install() {
-  // Enable some temple_tier2 blocks.
-  $default_theme = 'bartik';
+function temple_install() {
+  // Enable some temple blocks.
+  $default_theme = 'tuworld';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')
